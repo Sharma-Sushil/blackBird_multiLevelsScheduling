@@ -291,11 +291,11 @@ void firstComeFirstServe()
 
 int main()
 {
-    getData();
+	getData();
 	quantumQueue();
-    roundRobin();
-    firstComeFirstServe();
-    priority();
-
+    	roundRobin();
+    	firstComeFirstServe();
+    	priority();
+	
 	return 0;
 }
