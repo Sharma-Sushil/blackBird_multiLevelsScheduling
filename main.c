@@ -8,7 +8,7 @@ float avgWaitingTimeOfQueue2=0.0,avgTurnaroundTimeOfQueue2=0.0;
 int arrivalTimeOfQueue3[10],burstTimeOfQueue3[10],waitingTimeOfQueue3[10],turnaroundTimeOfQueue3[10];
 float avgWaitingTimeOfQueue3=0.0,avgTurnaroundTimeOfQueue3=0.0;
 
-void exit(int s); // exit function declaration
+void exit(int s);
 void getData()
 {
     int numberOfProcess;
@@ -115,7 +115,7 @@ void quantumQueue()
 void roundRobin()
 {   if(totalprocessOfQueue1<1)
     {
-        return;
+        return ;
     }
     printf("\nRound robin algorithm is processing...\n\n");
 	printf("Quantum time for queue 1 is given 4 seconds.\n");
@@ -233,7 +233,7 @@ void priority()
 			}
 			else if(burstTimeOfQueue2[i]<=10)
 			{
-				printf("\nProcess %d of Queue2 is running for %d seconds",i+1,burstTimeOfQueue2[i]);
+				printf("\nProcess %d of Queue 2 is running for %d seconds",i+1,burstTimeOfQueue2[i]);
 				burstTimeOfQueue2[i]=0;
 			}
 		}
@@ -291,11 +291,11 @@ void firstComeFirstServe()
 
 int main()
 {
-	getData();
+    getData();
 	quantumQueue();
-    	roundRobin();
-    	firstComeFirstServe();
-    	priority();
-	
+    roundRobin();
+    firstComeFirstServe();
+    priority();
+
 	return 0;
 }
