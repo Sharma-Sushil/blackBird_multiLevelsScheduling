@@ -8,7 +8,7 @@ float avgWaitingTimeOfQueue2=0.0,avgTurnaroundTimeOfQueue2=0.0;
 int arrivalTimeOfQueue3[10],burstTimeOfQueue3[10],waitingTimeOfQueue3[10],turnaroundTimeOfQueue3[10];
 float avgWaitingTimeOfQueue3=0.0,avgTurnaroundTimeOfQueue3=0.0;
 
-void exit(int s);
+void exit(int s); // To exit from specific input
 void getData()
 {
     int numberOfProcess;
