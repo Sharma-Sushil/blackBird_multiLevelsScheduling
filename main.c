@@ -115,7 +115,7 @@ void quantumQueue()
 void roundRobin()
 {   if(totalprocessOfQueue1<1)
     {
-        exit(0);
+        return;
     }
     printf("\nRound robin algorithm is processing...\n\n");
 	printf("Quantum time for queue 1 is given 4 seconds.\n");
@@ -170,7 +170,7 @@ void roundRobin()
 void priority()
 {   if(totalprocessOfQueue2<1)
     {
-        exit(0);
+        return;
     }
     printf("\n\nPriority scheduling algorithm  is processing...\n");
     int sumForCalculation=0,a;
@@ -245,7 +245,7 @@ void priority()
 void firstComeFirstServe()
 {   if(totalprocessOfQueue3<1)
     {
-        exit(0);
+        return;
     }
     printf("\n\nFirst Come First Serve algorithm is processing...\n");
 	waitingTimeOfQueue3[0] = 0;
