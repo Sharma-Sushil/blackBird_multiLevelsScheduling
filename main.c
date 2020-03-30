@@ -4,11 +4,11 @@ int arrivalTimeOfQueue1[10],burstTimeOfQueue1[10],dummy[10],down,temp,count=0;
 float avgWaitingTimeOfQueue1=0.0,avgTurnaroundTimeOfQueue1=0.0;
 int arrivalTimeOfQueue2[10],burstTimeOfQueue2[10],waitingTimeOfQueue2[10],turnaroundTimeOfQueue2[10],priorityForQueue2[10],temp1,processOfQueue2[10];
 float avgWaitingTimeOfQueue2=0.0,avgTurnaroundTimeOfQueue2=0.0;
-
 int arrivalTimeOfQueue3[10],burstTimeOfQueue3[10],waitingTimeOfQueue3[10],turnaroundTimeOfQueue3[10];
 float avgWaitingTimeOfQueue3=0.0,avgTurnaroundTimeOfQueue3=0.0;
 
 void exit(int s);
+
 void getData()
 {
     int numberOfProcess;
